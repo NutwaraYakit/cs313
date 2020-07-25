@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <style>
+            body {
+                font-family: Arial;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            form.example input[type=text] {
+                padding: 10px;
+                font-size: 17px;
+                border: 1px solid grey;
+                float: left;
+                width: 80%;
+                background: #f3f3f3;
+            }
+
+            form.example button{
+                float: left;
+                width: 20%;
+                padding: 10px;
+                background: #2196F3;
+                color: rgb(255, 251, 251);
+                font-size: 17px;
+                border: 1px solid rgb(150, 150, 150);
+                border-left: none;
+                cursor: pointer;
+            }
+
+            form.example button:hover {
+                background: #0b79d3;
+            }
+
+            form.example::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:800px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit" id="submit"><i class="fa fa-search">submit</i></button>
+        </form>
+        </head>
+
+        <body>
+    </div>
+    <div>
+        <img id="title" src="./img/title.jpg">
+    </div>
+    <ul>
+        <li><button style="padding: 10px;" id="home"><img id="imghome" src="./img/home.png" alt=""> HOME </button></li>
+        <li><button style="padding: 10px;" id="plant"><img id="imgwater" src="./img/water.png" alt=""> PLANT &
+                CARE</button></li>
+        <li><button style="padding: 10px;" id="species"><img id="imgspc" src="./img/cactus.png" alt=""> SPECIES</button>
+        </li>
+        <li><button style="padding: 10px;" id="cart"> <img id="imgcart" src="./img/cart.png" alt=""> SHOPPING
+                CART</button></li>
+    </ul>
+
+
+    <div>
+        <style>
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+            }
+
+            div.gallery:hover {
+                border: 1px solid rgb(148, 148, 148);
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+            div.desc {
+                padding: 15px;
+                text-align: center;
+            }
+        </style>
+        </head>
+
+        <body>
+
+            <div class="gallery">
+                <a target="_blank" href="./img/ft.jpg">
+                    <img src="./img/ft.jpg" alt="Cinque Terre" width="900" height="700">
+                </a>
+                <div class="desc">Fuacaria Tuberculosa</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./img/gb.jpg">
+                    <img src="./img/gb.jpg" alt="Forest" width="900" height="700">
+                </a>
+                <div class="desc">Gymnocalycium Baldianum</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./img/hl.jpg">
+                    <img src="./img/hl.jpg" alt="Northern Lights" width="900" height="700">
+                </a>
+                <div class="desc">Haworthai Limifolia</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./img/lf.jpg">
+                    <img src="./img/lf.jpg" alt="Mountains" width="900" height="700">
+                </a>
+                <div class="desc">Lophophora Fricii</div>
+           </div>
+            
+           <div class="gallery">
+                <a target="_blank" href="./img/ml.jpg">
+                    <img src="./img/ml.jpg" alt="Cinque Terre" width="900" height="700">
+                </a>
+                <div class="desc">Mammillaria Lasiacantha</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./img/mp.jpg">
+                    <img src="./img/mp.jpg" alt="Forest" width="900" height="700">
+                </a>
+                <div class="desc">Mammillaria Plumosa</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./img/ms.jpg">
+                    <img src="./img/ms.jpg" alt="Northern Lights" width="900" height="700">
+                </a>
+                <div class="desc">Mammillaria vetula subsp. gracilis'Arizona Snowcap'</div>
+            </div><br>
+            <div class="gallery">
+                <a target="_blank" href="./img/om.jpg">
+                    <img src="./img/om.jpg" alt="Mountains" width="900" height="700">
+                </a>
+                <div class="desc">Opuntia Microdasys</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="./img/pp.jpg">
+                    <img src="./img/pp.jpg" alt="Cinque Terre" width="900" height="700">
+                </a>
+                <div class="desc">Pink and Purple Succulent</div>
+            </div>
+
+    
+
+
+    </div>
+
+
+</body>
+
+
+</html>
+
+<style>
+    ul {
+        padding: 0px;
+        justify-content: center;
+        display: flex;
+        margin: 0x;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+        padding: 70px;
+        widows: 0px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    #home {
+        border-radius: 30px;
+        width: 110px;
+        height: 50px;
+        background-color: white;
+    }
+
+    #plant {
+        border-radius: 30px;
+        width: 170px;
+        height: 50px;
+        background-color: white;
+    }
+
+    #species {
+        border-radius: 30px;
+        width: 130px;
+        height: 50px;
+        background-color: white;
+
+    }
+
+    #cart {
+        border-radius: 30px;
+        width: 180px;
+        height: 50px;
+        background-color: white;
+    }
+
+    #nn {
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #imghome {
+        width: 20px;
+    }
+
+    #imgwater {
+        width: 25px;
+    }
+
+    #imgspc {
+        width: 25px;
+    }
+
+    #imgcart {
+        width: 25px;
+    }
+
+    #imglogo {
+        width: 60px;
+    }
+
+    #search {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 0px;
+
+    }
+
+    table {
+        display: inline;
+        padding: 20px;
+        widows: 0px;
+        font-size: 50px;
+        font-weight: bold;
+
+    }
+
+    #submit {
+        width: 80px;
+        height: 42px;
+        background-color: rgb(92, 187, 108);
+
+    }
+
+    #title {
+        width: 1300px;
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        margin: 10px;
+    }
+</style>
